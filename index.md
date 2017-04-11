@@ -28,7 +28,7 @@ TODO:
   compiler**](https://code.google.com/archive/p/ebf-compiler/). You are an
   inspiration.
 
-## Complaints
+----
 
 This demo page (created with the help of [txti.es](http://txti.es/)) is
 maintained by Pandu Rendradjaja, who can be reached via email at: **(his first
