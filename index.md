@@ -1,4 +1,4 @@
-# EBF++ demo
+# EBF++ language
 
 TODO:
 
@@ -20,4 +20,4 @@ TODO:
 
 ## Complaints
 
-This demo page maintained by [Pandu Rendradjaja](https://github.com/prendradjaja/), who can be reached via email by **his first name @berkeley.edu**.
+This demo page (created with [txti.es](http://txti.es/)) maintained by [Pandu Rendradjaja](https://github.com/prendradjaja/), who can be reached via email by **his first name @berkeley.edu**.
