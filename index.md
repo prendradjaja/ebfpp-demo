@@ -46,15 +46,15 @@ EBF++ builds upon the work of EBF by adding some useful features:
 Start here:
 
 - [Online interpreter-debugger-compiler][interpreter], mostly by John Wilkey
-- [Cheatsheet][cheatsheet]: Language features of BF, EBF, and EBF++
+- [Cheatsheet][cheatsheet]: Language features and syntax of BF, EBF, and EBF++
 - [Source code on GitHub][github]
-    - [Compiler][compiler]
+    - [Compiler][compiler], mostly by Pandu Rendradjaja
 
 You may also be interested in:
 
-- [Demo/tutorial video][video-tutorial] (3:04, no audio)
+- [Extended demo video][video-tutorial] (3:04, no audio)
 - [Slides][slides]: Explains motivation and and gives a brief intro to EBF++
-  macros.
+  macros
 
 ## Acknowledgments
 
