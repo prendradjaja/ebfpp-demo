@@ -19,8 +19,8 @@ TODO:
 
 ## Acknowledgments
 
-- EBF++ is the work of **Pandu Rendradjaja**, **John Wilkey**, and **John
-  Tran**, formerly undergraduates of UC Berkeley.
+- EBF++ is the work of **John Wilkey**, **John Tran**, and **Pandu
+  Rendradjaja**, formerly undergraduates of UC Berkeley.
 - Thank you to **Ras Bodik** and the rest of the **CS 164 Fall 2014** staff for
   causing us to create this abomination.
 - And finally, a massive high five to the mad geniuses behind the original
