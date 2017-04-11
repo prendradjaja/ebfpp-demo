@@ -30,6 +30,6 @@ TODO:
 
 ## Complaints
 
-This demo page (created with [txti.es](http://txti.es/)) maintained by [Pandu
-Rendradjaja](https://github.com/prendradjaja/), who can be reached via email
-at: **(his first name)@berkeley.edu**.
+This demo page (created with the help of [txti.es](http://txti.es/)) is
+maintained by Pandu Rendradjaja, who can be reached via email at: **(his first
+name)@berkeley.edu**.
