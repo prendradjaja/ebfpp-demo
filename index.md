@@ -4,6 +4,7 @@
 **[Online Interpreter][interpreter]**
 **&middot; [GitHub]** ([compiler.js][compiler])
 **&middot; [Cheatsheet]**
+**&middot; [Demo](#demo)**
 </span>
 
 EBF++ is an extension to [Brainf\*ck][bf] ("BF" hereafter) that compiles into
@@ -34,6 +35,12 @@ EBF++ builds upon the work of EBF by adding some useful features:
 - **Memory management** is extended beyond simple variables to also include
   **arrays and structs.**
 
+## Demo
+
+- [Sample program][sample]: Run-length encoding decoder
+    - [Demo][sample-video] of this program
+    - Example input: `2a3b1c`. Example output: `cbbbaa`.
+
 ## Links
 
 Start here:
@@ -45,9 +52,6 @@ Start here:
 
 You may also be interested in:
 
-- [Sample program][sample]: Run-length encoding decoder
-    - [Demo][sample-video] of this program
-    - Example input: `2a3b1c`. Example output: `cbbbaa`.
 - [Demo/tutorial video][video-tutorial] (3:04, no audio)
 - [Slides][slides]: Explains motivation and and gives a brief intro to EBF++
   macros.

@@ -46,7 +46,7 @@ a:link {
 </head>
 <body>
 <h1 id="ebf-language">EBF++ language</h1>
-<p><span id="navbar"> <strong><a href="https://www.ocf.berkeley.edu/~prendra/ebfpp/interpreter/">Online Interpreter</a></strong> <strong>· <a href="https://github.com/prendradjaja/ebfpp">GitHub</a></strong> (<a href="https://github.com/prendradjaja/ebfpp/blob/aa0842921f0622ef7f4de506917f76ff8a1b9a91/standalone-compiler/compiler/compiler.js">compiler.js</a>) <strong>· <a href="https://github.com/prendradjaja/ebfpp/blob/aa0842921f0622ef7f4de506917f76ff8a1b9a91/language-notes.pdf">Cheatsheet</a></strong> </span></p>
+<p><span id="navbar"> <strong><a href="https://www.ocf.berkeley.edu/~prendra/ebfpp/interpreter/">Online Interpreter</a></strong> <strong>· <a href="https://github.com/prendradjaja/ebfpp">GitHub</a></strong> (<a href="https://github.com/prendradjaja/ebfpp/blob/aa0842921f0622ef7f4de506917f76ff8a1b9a91/standalone-compiler/compiler/compiler.js">compiler.js</a>) <strong>· <a href="https://github.com/prendradjaja/ebfpp/blob/aa0842921f0622ef7f4de506917f76ff8a1b9a91/language-notes.pdf">Cheatsheet</a></strong> <strong>· <a href="#demo">Demo</a></strong> </span></p>
 <p>EBF++ is an extension to <a href="https://en.wikipedia.org/wiki/Brainfuck">Brainf*ck</a> (&quot;BF&quot; hereafter) that compiles into plain BF.</p>
 <blockquote>
 <p>BF programmers write a lot of tedious code. BF provides no facilities for abstraction, so DRY is a useless concept. Our language aims to do away with the tedious parts of BF.</p>
@@ -61,6 +61,14 @@ a:link {
 <li><strong>Macros,</strong> introduced in EBF, now can take arguments.</li>
 <li><strong>Memory management</strong> is extended beyond simple variables to also include <strong>arrays and structs.</strong></li>
 </ul>
+<h2 id="demo">Demo</h2>
+<ul>
+<li><a href="https://github.com/prendradjaja/ebfpp/blob/aa0842921f0622ef7f4de506917f76ff8a1b9a91/pa6/pa6-program-with-variables.ebf">Sample program</a>: Run-length encoding decoder
+<ul>
+<li><a href="https://drive.google.com/file/d/0B1DFn5TANcs5MkdWaHB0S3hEbm8/view">Demo</a> of this program</li>
+<li>Example input: <code>2a3b1c</code>. Example output: <code>cbbbaa</code>.</li>
+</ul></li>
+</ul>
 <h2 id="links">Links</h2>
 <p>Start here:</p>
 <ul>
@@ -73,11 +81,6 @@ a:link {
 </ul>
 <p>You may also be interested in:</p>
 <ul>
-<li><a href="https://github.com/prendradjaja/ebfpp/blob/aa0842921f0622ef7f4de506917f76ff8a1b9a91/pa6/pa6-program-with-variables.ebf">Sample program</a>: Run-length encoding decoder
-<ul>
-<li><a href="https://drive.google.com/file/d/0B1DFn5TANcs5MkdWaHB0S3hEbm8/view">Demo</a> of this program</li>
-<li>Example input: <code>2a3b1c</code>. Example output: <code>cbbbaa</code>.</li>
-</ul></li>
 <li><a href="https://drive.google.com/file/d/0B1DFn5TANcs5WUZNMVY5TndtcHc/view">Demo/tutorial video</a> (3:04, no audio)</li>
 <li><a href="https://drive.google.com/file/d/0B1DFn5TANcs5MDZWamltYnRoSlE/view">Slides</a>: Explains motivation and and gives a brief intro to EBF++ macros.</li>
 </ul>
