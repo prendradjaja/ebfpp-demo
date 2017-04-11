@@ -62,8 +62,8 @@ You may also be interested in:
   Rendradjaja**, formerly undergraduates of UC Berkeley.
 - Thank you to **Ras Bodik** and the rest of the **CS 164 Fall 2014** staff for
   causing us to create this abomination.
-- And finally, a massive high five to the mad geniuses behind the original
-  (self-hosting!) [**EBF
+- And finally, a massive high five to **Sylwester**, the mad genius behind the
+  original (self-hosting!) [**EBF
   compiler**](https://code.google.com/archive/p/ebf-compiler/) and language
   design, which our project builds upon. You are an inspiration.
 
