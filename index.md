@@ -9,7 +9,7 @@ TODO:
 
 - [Interactive interpreter, debugger, and compiler web interface](https://www.ocf.berkeley.edu/~prendra/ebfpp/interpreter/), mostly by John Wilkey
 - [Slides](https://drive.google.com/file/d/0B1DFn5TANcs5MDZWamltYnRoSlE/view): Explains motivation and and gives a brief intro to EBF++ macros.
-- [Demo video](https://drive.google.com/file/d/0B1DFn5TANcs5WUZNMVY5TndtcHc/view) (3:04)
+- [Demo video](https://drive.google.com/file/d/0B1DFn5TANcs5WUZNMVY5TndtcHc/view) (3:04, no audio)
 - [Source code on GitHub](https://github.com/prendradjaja/ebfpp)
 
 ## Acknowledgments
