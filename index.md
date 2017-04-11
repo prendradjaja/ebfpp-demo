@@ -25,7 +25,7 @@ plain BF.
 
 
 <small style="color: #999; text-align: right; display: block;">Adapted
-from the original EBF++ Project Proposal, by Tran et al.</small>
+from the original EBF++ Project Proposal by Tran et al.</small>
 
 EBF++ builds upon the work of EBF by adding some useful features:
 
