@@ -47,28 +47,30 @@ a:link {
 <body>
 <h1 id="ebf-language">EBF++ language</h1>
 <p><span id="navbar"> <strong><a href="https://www.ocf.berkeley.edu/~prendra/ebfpp/interpreter/">Online Interpreter</a></strong> <strong>· <a href="https://github.com/prendradjaja/ebfpp">GitHub</a></strong> (<a href="https://github.com/prendradjaja/ebfpp/blob/aa0842921f0622ef7f4de506917f76ff8a1b9a91/standalone-compiler/compiler/compiler.js">compiler.js</a>) <strong>· <a href="https://github.com/prendradjaja/ebfpp/blob/aa0842921f0622ef7f4de506917f76ff8a1b9a91/language-notes.pdf">Cheatsheet</a></strong> <strong>· <a href="#demo">Demo</a></strong> </span></p>
-<p>EBF++ is an extension to <a href="https://en.wikipedia.org/wiki/Brainfuck">Brainf*ck</a> (&quot;BF&quot; hereafter) that compiles into plain BF.</p>
+<p>EBF++ is an extension to <a href="https://en.wikipedia.org/wiki/Brainfuck">Brainf*ck</a> (&quot;BF&quot; hereafter) that <strong>compiles into plain BF.</strong></p>
 <blockquote>
-<p>BF programmers write a lot of tedious code. BF provides no facilities for abstraction, so DRY is a useless concept. Our language aims to do away with the tedious parts of BF.</p>
-<p>One obvious feature to add would be multiplicative notation, (allowing for example, <code>5+</code> instead of <code>+++++</code>) and macros.</p>
-<p>Features like this exist already in Extended BF, (EBF) but it still leaves much wanting to programmers used to such luxurious high-level languages* as x86, Forth, COBOL, PHP, and JavaScript.</p>
+<p>BF programmers write a lot of repetitive code. The language provides no facilities for abstraction, so DRY is a useless concept. Our language aims to do away with the tedious parts of BF.</p>
+<p>One immediately obvious feature to add is multiplicative notation: allowing, for example, <code>5+</code> as shorthand for <code>+++++</code>.</p>
+<p>Features like this exist already in <strong>Extended BF,</strong> (EBF) but it still leaves much wanting for programmers used to such luxurious high-level languages* as x86 assembly, Forth, COBOL, PHP, and JavaScript. <strong>This is where EBF++ comes in.</strong></p>
 <p><small>* A joke.</small></p>
 </blockquote>
 <p><small style="color: #999; text-align: right; display: block;">Adapted from the original EBF++ Project Proposal by Tran et al.</small></p>
 <p>EBF++ builds upon the work of EBF by adding some useful features:</p>
 <ul>
 <li><strong>Libraries!</strong> Now you don't have to transclude every library you need: you can just reference them.</li>
-<li><strong>Macros,</strong> introduced in EBF, now can take arguments.</li>
+<li><strong>Macros,</strong> introduced in EBF, can now take arguments.</li>
 <li><strong>Memory management</strong> is extended beyond simple variables to also include <strong>arrays and structs.</strong></li>
 </ul>
 <h2 id="demo">Demo</h2>
 <ul>
 <li><a href="https://github.com/prendradjaja/ebfpp/blob/aa0842921f0622ef7f4de506917f76ff8a1b9a91/pa6/pa6-program-with-variables.ebf">Sample program</a>: Run-length encoding decoder
 <ul>
-<li><a href="https://drive.google.com/file/d/0B1DFn5TANcs5MkdWaHB0S3hEbm8/view">Demo</a> of this program</li>
+<li><a href="https://drive.google.com/file/d/0B1DFn5TANcs5MkdWaHB0S3hEbm8/view">Demo video</a> (0:30, no audio) of this program</li>
 <li>Example input: <code>2a3b1c</code>. Example output: <code>cbbbaa</code>.</li>
 </ul></li>
 </ul>
+<p>A note on running EBF++ programs:</p>
+<p>Unfortunately, even a language as simple as BF has a wide range of implementation-specific behaviors, so for best results, use our <a href="https://www.ocf.berkeley.edu/~prendra/ebfpp/interpreter/">interpreter</a> or the <a href="http://mazonka.com/brainf/"><code>bff4</code></a> BF compiler if you wish to run any of our demo code.</p>
 <h2 id="links">Links</h2>
 <p>Start here:</p>
 <ul>
@@ -83,11 +85,16 @@ a:link {
 <ul>
 <li><a href="https://drive.google.com/file/d/0B1DFn5TANcs5WUZNMVY5TndtcHc/view">Extended demo video</a> (3:04, no audio)</li>
 <li><a href="https://drive.google.com/file/d/0B1DFn5TANcs5MDZWamltYnRoSlE/view">Slides</a>: Explains motivation and and gives a brief intro to EBF++ macros</li>
+<li><a href="https://code.google.com/archive/p/ebf-compiler/">The EBF compiler</a>
+<ul>
+<li><strong>A reminder</strong> for those skimming a little too quickly: This is <em>not</em> our work; EBF++ is. EBF is the existing language ours extends, and BF is the base language that EBF extends.</li>
+</ul></li>
+<li><a href="http://mazonka.com/brainf/"><code>bff4</code></a>, our favorite BF compiler.</li>
 </ul>
 <h2 id="acknowledgments">Acknowledgments</h2>
 <ul>
 <li>EBF++ is the work of <strong>John Wilkey</strong>, <strong>John Tran</strong>, and <strong>Pandu Rendradjaja</strong>, formerly undergraduates of UC Berkeley.</li>
-<li>Thank you to <strong>Ras Bodik</strong> and the rest of the <strong>CS 164 Fall 2014</strong> staff for causing us to create this abomination.</li>
+<li>Thank you to <strong>Ras Bodik</strong> and the rest of the <strong>CS 164</strong> staff of fall 2014 for causing us to create this abomination.</li>
 <li>And finally, a massive high five to <strong>Sylwester</strong>, the mad genius behind the original (self-hosting!) <a href="https://code.google.com/archive/p/ebf-compiler/"><strong>EBF compiler</strong></a> and language design, which our project builds upon. You are an inspiration.</li>
 </ul>
 <hr />
