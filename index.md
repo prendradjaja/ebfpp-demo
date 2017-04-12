@@ -42,11 +42,11 @@ EBF++ builds upon the work of EBF by adding some useful features:
     - [Demo video][sample-video] (0:30, no audio) of this program
     - Example input: `2a3b1c`. Example output: `cbbbaa`.
 
-A note on running EBF++ programs:
+**A note on running EBF++ programs:**
 
 Unfortunately, even a language as simple as BF has a wide range of
 implementation-specific behaviors, so for best results, use our [interpreter]
-or the [`bff4`][bff4] BF compiler if you wish to run any of our demo code.
+or the [`bff4`][bff4] BF compiler if you'd like to run any of our demo code.
 
 ## Links
 
