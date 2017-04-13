@@ -38,15 +38,17 @@ EBF++ builds upon the work of EBF by adding some useful features:
 
 ## Demo
 
-- [Sample program][sample]: Run-length encoding decoder
-    - [Demo video][sample-video] (0:30, no audio) of this program
-    - Example input: `2a3b1c`. Example output: `cbbbaa`.
+[Your first EBF++ program][sample-pour]: Copy and paste it into our
+[interpreter], and press "Run!"
+
+If you're interested, you can try out the compiler (to see what BF code is
+generated) and debugger (use `#` for a breakpoint).
 
 **A note on running EBF++ programs:**
 
 Unfortunately, even a language as simple as BF has a wide range of
-implementation-specific behaviors, so for best results, use our [interpreter]
-or the [`bff4`][bff4] BF compiler if you'd like to run any of our demo code.
+implementation-specific behaviors, so for best results, use our or the
+[`bff4`][bff4] BF compiler if you'd like to run any of our demo code.
 
 ## Links
 
@@ -59,7 +61,12 @@ Start here:
 
 You may also be interested in:
 
-- [Extended demo video][video-tutorial] (3:04, no audio)
+- [Demo video][video-tutorial] (3:04, no audio) Shows various language
+  features.
+- [RLE decoder in EBF++][sample-rle]: Run-length encoding decoder (Sorry! This
+  doesn't seem to work on our interpreter. Bug fix pending.)
+    - [Demo video][rle-video] (0:30, no audio) of this program
+    - Example input: `2a3b1c`. Example output: `cbbbaa`.
 - [Slides][slides]: Explains motivation and and gives a brief intro to EBF++
   macros
 - [The EBF compiler][ebfc]
@@ -92,11 +99,12 @@ name)@berkeley.edu**.
 [github]: https://github.com/prendradjaja/ebfpp
 [cheatsheet]:
 https://github.com/prendradjaja/ebfpp/blob/aa0842921f0622ef7f4de506917f76ff8a1b9a91/language-notes.pdf
-[sample]:
+[sample-rle]:
 https://github.com/prendradjaja/ebfpp/blob/aa0842921f0622ef7f4de506917f76ff8a1b9a91/pa6/pa6-program-with-variables.ebf
-[sample-video]:
+[rle-video]:
 https://drive.google.com/file/d/0B1DFn5TANcs5MkdWaHB0S3hEbm8/view
 [compiler]:
 https://github.com/prendradjaja/ebfpp/blob/aa0842921f0622ef7f4de506917f76ff8a1b9a91/standalone-compiler/compiler/compiler.js
 [ebfc]: https://code.google.com/archive/p/ebf-compiler/
 [bff4]: http://mazonka.com/brainf/
+[sample-pour]: https://gist.github.com/prendradjaja/dc53d95aabb0e9743a944685c882492e
